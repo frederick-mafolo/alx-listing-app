@@ -1,7 +1,12 @@
+import React from 'react';
+
 export interface CardProps {
-  // Placeholder for Card component props
+  children?: React.ReactNode;
+  className?: string;
 }
 
 export interface ButtonProps {
-  // Placeholder for Button component props
+  children?: React.ReactNode;
+  onClick?: () => void;
+  className?: string;
 }
